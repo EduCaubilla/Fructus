@@ -25,6 +25,7 @@ struct FruitCardView: View {
                     .scaledToFit()
                     .shadow(color: .black.opacity(0.25), radius: 8, x: 6, y: 8)
                     .scaleEffect(isAnimating ? 1 : 0.6)
+                    .frame(maxWidth: 500)
 
                     // FRUIT: TITLE
                 Text(fruit.title)

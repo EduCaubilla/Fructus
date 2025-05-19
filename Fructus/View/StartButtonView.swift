@@ -34,7 +34,8 @@ struct StartButtonView: View {
     }
 }
 
-    //MARK: - PREVIEW
+//MARK: - PREVIEW
 #Preview (traits: .sizeThatFitsLayout) {
     StartButtonView()
+        .preferredColorScheme(.dark)
 }
